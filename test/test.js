@@ -79,12 +79,14 @@ tape( 'the function returns a company name when provided a known company email a
 	const values = [
 		'jane.doe@gs.com',
 		'john.doe@abercrombie.com',
-		'ceo@aetna.com'
+		'ceo@aetna.com',
+		'support@ups.com'
 	];
 	const expected = [
 		'Goldman Sachs Group',
 		'Abercrombie & Fitch',
-		'Aetna'
+		'Aetna',
+		'UPS'
 	];
 
 	for ( let i = 0; i < values.length; i++ ) {
