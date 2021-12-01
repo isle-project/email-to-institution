@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "clean": "rm -rf ./node_modules",
-    "lint": "eslint lib/** test/**/*.js",
+    "lint": "eslint lib/**/*.js test/**/*.js",
     "test": "tape \"./test/*.js\"",
     "test-cov": "istanbul cover --dir ./reports/coverage --report lcov tape -- \"./test/*.js\""
   },
