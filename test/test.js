@@ -71,7 +71,7 @@ tape( 'the function throws an error if provided a second argument which is not a
 	t.end();
 
 	function badValue( value ) {
-		return () => emailToInstitution( value );
+		return () => emailToInstitution( 'jane.doe@walmart.com', value );
 	}
 });
 
