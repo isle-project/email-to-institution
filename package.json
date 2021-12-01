@@ -1,0 +1,29 @@
+{
+  "name": "@isle-project/email-to-institution",
+  "version": "1.0.0",
+  "description": "Return an institution name corresponding to a supplied email address.",
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rm -rf ./node_modules",
+    "lint": "eslint lib/** test/**/*.js",
+    "test": "tape \"./test/*.js\"",
+    "test-cov": "istanbul cover --dir ./reports/coverage --report lcov tape -- \"./test/*.js\""
+  },
+  "author": {
+    "name": "Philipp Burckhardt",
+    "email": "pburckhardt@outlook.com"
+  },
+  "license": "AGPL-3.0-only",
+  "dependencies": {
+    "@stdlib/assert-is-email-address": "^0.0.7",
+    "@stdlib/string-capitalize": "^0.0.7",
+    "swot-simple": "^1.0.0",
+    "tldjs": "^2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "istanbul": "^1.1.0-alpha.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.3.2"
+  }
+}
