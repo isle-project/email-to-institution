@@ -16,7 +16,7 @@
   "license": "AGPL-3.0-only",
   "dependencies": {
     "@stdlib/assert-is-email-address": "^0.0.7",
-    "@stdlib/string-capitalize": "^0.0.7",
+    "@stdlib/string-capitalize": "^0.0.8",
     "swot-simple": "^1.0.0",
     "tldjs": "^2.3.1"
   },
